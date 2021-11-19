@@ -5,6 +5,11 @@
 ---1. Build API
 --Go to the Gradle and run build in following path
 ------Gradle -> petstore -> Tasks -> build -> build(run this)
+--using commands
+------- git clone https://github.com/Uyanhewajanadhi/MiddlewarePetCareAssignment.git
+------- ./gradlew build -Dquarkus.package.type=uber-jar
+------- java -jar build/petstore-runner.jar
+       
 
 --- Run API
 --Run or Debug the project using run or debug icons in intelij
